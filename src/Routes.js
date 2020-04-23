@@ -21,6 +21,10 @@ class Routes extends React.Component {
           <Route exact path='/Detail' component={Detail} />
           <Route exact path='/collection' component={Collection} />
           <Route exact path='/maprolex' component={MapRolex} />
+          {/* <Route exact path='/environment' component={() => { 
+                window.location.href = 'https://www.rolex.org/ko/environment'; 
+                return null;
+            }}/> */}
         </Switch>
       </Router>
     );
